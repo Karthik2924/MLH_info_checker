@@ -5,7 +5,7 @@ headers = {'Authorization': 'Bearer YOUR_KEY_HERE'}
 
 # Payload setup for API request
 payload = {
-    'file': {'file': open(r'C:\Users\Latitude\Desktop\MLH\shravss.mp3', 'rb')}, 
+    'file': {'file': open(r'YOUR_FILE_PATH', 'rb')}, 
     'data': {
         "fileType": "audio",  # Default is 'wav'.
         "diarization": "false",  # 'True' may slow down processing.
