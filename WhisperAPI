@@ -1,7 +1,7 @@
 import requests
 # API endpoint configuration
 api_url = "https://transcribe.whisperapi.com"
-headers = {'Authorization': 'Bearer YOUR_KEY_HERE'}
+headers = {'Authorization': 'Bearer JLSGXQ7476LBC3ILQTTPP44D7CE5EAU9'}
 
 # Payload setup for API request
 payload = {
