@@ -15,7 +15,7 @@ import bs4 as bs
 import urllib.request
 
 ## Import the key safely
-GOOGLE_API_KEY = 'AIzaSyBYv4rXJa5ft99khetg4PNEnYGE2qOd3pg'
+GOOGLE_API_KEY = "Enter API key here"
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 
